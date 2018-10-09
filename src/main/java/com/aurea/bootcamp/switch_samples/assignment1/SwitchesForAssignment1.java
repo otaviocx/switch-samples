@@ -63,6 +63,9 @@ public class SwitchesForAssignment1 {
 		switch (num1) {
 			case 1: helper.printExceptionMessage(new Exception("Just an exception")); break;
 			case 2:	helper.printString("A sample text."); break;
+			case 4:
+				System.out.println("Bla");
+				return;
 			case 3:
 				String str = "A simple text";
 				int number = 3;
