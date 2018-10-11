@@ -25,15 +25,15 @@ public class SwitchesForAssignment3 {
 		}
 		return result;
 	}
-	public Double doSample2(int value1, int value2) {
-		Double result = -1.0;
+	public double doSample2(int value1, int value2) {
+		double result = -1.0;
 		switch (value1) {
 			case 1:
 				result = this.helper.sum(value1, value2).doubleValue();	
 			case 2:
-				result = (double) this.helper.doubles(value1+value2);	
+				result = this.helper.doubles(value1+value2);
 			case 3:
-				result = this.helper.divide((double) value2, (double) value1).doubleValue();
+				result = this.helper.divide(value2, value1);
 		}
 		return result;
 	}
